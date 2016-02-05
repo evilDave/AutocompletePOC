@@ -6,6 +6,8 @@
 #import "ViewController.h"
 #import "SuggestionCell.h"
 
+#import <PromiseKit/PromiseKit.h>
+
 
 @interface ViewController () <UITableViewDataSource>
 @end
@@ -29,7 +31,6 @@ static NSString *const suggestionCellIdentifier = @"SuggestionCell";
 
     return self;
 }
-
 
 - (void)loadView {
     [self setView:[[UIView alloc] init]];
@@ -75,6 +76,5 @@ static NSString *const suggestionCellIdentifier = @"SuggestionCell";
         [tableView reloadData];
     }
 }
-
 
 @end
