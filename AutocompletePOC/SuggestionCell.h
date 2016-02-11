@@ -9,4 +9,7 @@
 
 @interface SuggestionCell : UITableViewCell
 
+- (void)setName:(NSString *)name withPlaces:(NSMutableArray *)places;
+
+- (void)setHotels:(NSString *)hotels;
 @end

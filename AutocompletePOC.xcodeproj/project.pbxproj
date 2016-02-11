@@ -13,7 +13,6 @@
 		5AF0E61A10076BD5DBA7B736 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EA03EEB8ACACF0F12154 /* ViewController.m */; };
 		5AF0E6F72A203B769B21ADE2 /* SuggestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0E6A537A767ED771A6D41 /* SuggestionCell.m */; };
 		5AF0E867025A8D9229585798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF0EC30C4B437A042306080 /* AppDelegate.m */; };
-		5AF0EF7FF52F36E991C7D355 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AF0EDDEFC6A5D4D91A47118 /* Info.plist */; };
 		D4DFE655A9DA41D1CF58D200 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225F96B7768431B578E079F0 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -159,7 +158,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF0EF7FF52F36E991C7D355 /* Info.plist in Resources */,
 				5AF0E24E1A7E0B816F3370EA /* Assets.xcassets in Resources */,
 				5AF0E2B6A9B6055DAD45ABD7 /* LaunchScreen.storyboard in Resources */,
 			);
