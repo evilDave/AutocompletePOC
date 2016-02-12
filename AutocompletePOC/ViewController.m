@@ -58,6 +58,8 @@ static NSString *const suggestionCellIdentifier = @"SuggestionCell";
     [tableView setDataSource:self];
     [tableView setDelegate:self];
     [tableView registerClass:[SuggestionCell class] forCellReuseIdentifier:suggestionCellIdentifier];
+    [tableView setEstimatedRowHeight:100];
+    [tableView setRowHeight:UITableViewAutomaticDimension];
     [self.view addSubview:tableView];
     [[tableView leadingAnchor] constraintEqualToAnchor:[self.view leadingAnchor]].active = YES;
     [[tableView topAnchor] constraintEqualToAnchor:[_textField bottomAnchor]].active = YES;
