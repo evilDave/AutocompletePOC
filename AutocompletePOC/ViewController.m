@@ -11,7 +11,6 @@
 #import <YOLOKit/NSArray+map.h>
 #import <YOLOKit/NSArray+groupBy.h>
 #import <YOLOKit/NSArray+uniq.h>
-#import <YOLOKit/NSArray+reduce.h>
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 @end
